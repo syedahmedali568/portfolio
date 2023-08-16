@@ -1,6 +1,6 @@
 # Portfolio
 # O-tere
-https://app.netlify.com/sites/o-tere/configuration/general
+https://o-tere.netlify.app/
 # Pepsi
 https://app.netlify.com/sites/pepsiii11/overview
 # Salt-n-pepper
