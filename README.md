@@ -2,7 +2,7 @@
 # O-tere
 https://o-tere.netlify.app/
 # Pepsi
-https://app.netlify.com/sites/pepsiii11/overview
+https://pepsiii11.netlify.app/
 # Salt-n-pepper
-https://app.netlify.com/sites/saltnpeppersite/overview
+https://saltnpeppersite.netlify.app/
  
