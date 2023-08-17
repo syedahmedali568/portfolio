@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Gilroy ;
+    src: url(./fonts/Gilroy-FREE/Gilroy-ExtraBold.otf);
+}
+/* *body{
+    color: #F9F9F9; */
+/* } */
+.btn {
+    width: 160px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5.952px;
+    background: #75BF7A;
+    margin-right: 35px;
+}
+
+.btn:hover {
+    background: #75BF7A;
+}
+
+.fontbtn {
+    width: 80px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+.navbar{
+    height: 150px;
+}
+.oterelogo{
+    height: 30px;
+    margin-left: 35px;
+}
+
+
+
+
+
+
+
+
+
