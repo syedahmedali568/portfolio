@@ -642,8 +642,9 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 5.5625rem;
-	height: 1.875rem;
+	width: 15.5625rem;
+    height: 3.875rem;
+	mix-blend-mode:multiply;
 }
 
 .navbar-custom .navbar-brand.logo-text {
@@ -2273,3 +2274,36 @@ color: white!important;
 #registrationForm button:hover{
 color: black!important;
 }
+
+faqs start 
+.accordion {
+	background-color: #7A6AD8;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+	background-color: #ccc; 
+  }
+  
+  .panel {
+	padding: 0 18px;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+  }
+  .faqs{
+	margin: 2.75rem 0px;
+   
+	padding: 3.5rem 0px;
+  }
+  /* faqs end  */
+
+  
