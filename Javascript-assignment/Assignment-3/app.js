@@ -27,4 +27,15 @@
 
 // <----Q7---->
 // AnsNo 7:
+// var eduInPak = ['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M. Phil.', 'PhD'];
+// document.write('<h1>Qualifications:</h1>');
+// document.write( ' <h3><ol>');
+// document.write('<li>' + eduInPak.join('</li><li>') + '</li>');
+// document.write('</ol></h3>');
 
+// var eduInPak = ['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M. Phil.', 'PhD'];
+// document.write('<h1>Qualifications:</h1><ol>');
+// for (var i = 0; i < eduInPak.length; i++) {
+//     document.write('<li>' + eduInPak[i] + '</li>');
+// }
+// document.write('</ol>');
