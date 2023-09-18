@@ -11,8 +11,10 @@
     border-radius: 10px;
     padding: 10px 25px;
     background: transparent;
-    max-width: 300px;
+    max-width: 365px;
     font-size: 30px;
+    margin-left: 5px;
+
 }
 
 .input:active {
@@ -21,7 +23,6 @@
 
 
 .btn {
-    /* width: 20px; */
     font-size: 1.2rem;
     padding: 1rem 2.5rem;
     border: none;
@@ -57,7 +58,7 @@
 
 .displaySection{
     width: 100% !important;
-    text-align: end;
+    text-align: right;
 }
 h1{
     color: rgba(31, 215, 232, 0.873);
@@ -74,6 +75,8 @@ h1{
     padding-top: 30px;
     padding-bottom: 20px;
     border-radius: 20px;
+    padding-left: 20px;
+    /* background: #1b1b1b !important; */
 
 }
 
@@ -82,7 +85,5 @@ h1{
 
 }
 
-/* .upperbtn{
-    padding-right: 50px;
-} */
+
 
