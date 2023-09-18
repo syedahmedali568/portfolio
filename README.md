@@ -1,6 +1,6 @@
 # Portfolio
 # Js-Calculator
-calculatorrrrrr12.netlify.app
+https://app.netlify.com/sites/calculatorrrrrr12/configuration/general
 # O-tere
 https://o-tere.netlify.app/
 # Pepsi
