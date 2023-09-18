@@ -17,31 +17,31 @@
             <div class="row">
                 <div class="col">
 
-                    <input type="text" name="text" class="input displaySection" placeholder="Calculate Me! ">
+                    <input type="text" name="text" class="input displaySection" id="txtInput" placeholder="Calculate Me! ">
                     <br><br>
-                    <button class="btn upperbtn">AC</button>
-                    <button class="btn upperbtn">DEL</button>
-                    <button class="btn upperbtnper">%</button>
-                    <button class="btn">/</button>
+                    <button class="btn upperbtn" onclick="clcData()">AC</button>
+                    <button class="btn upperbtn" onclick="">DEL</button>
+                    <button class="btn upperbtnper" onclick="storeData('%')">%</button>
+                    <button class="btn" onclick="storeData('/')">/</button>
                     <br><br>
-                    <button class="btn">7</button>
-                    <button class="btn">8</button>
-                    <button class="btn">9</button>
-                    <button class="btn">*</button>
+                    <button class="btn" onclick="storeData('7')">7</button>
+                    <button class="btn" onclick="storeData('8')">8</button>
+                    <button class="btn" onclick="storeData('9')">9</button>
+                    <button class="btn" onclick="storeData('*')">*</button>
                     <br><br>
-                    <button class="btn">4</button>
-                    <button class="btn">5</button>
-                    <button class="btn">6</button>
-                    <button class="btn">-</button>
+                    <button class="btn" onclick="storeData('4')">4</button>
+                    <button class="btn" onclick="storeData('5')">5</button>
+                    <button class="btn" onclick="storeData('6')">6</button>
+                    <button class="btn" onclick="storeData('-')">-</button>
                     <br><br>
-                    <button class="btn">1</button>
-                    <button class="btn">2</button>
-                    <button class="btn">3</button>
-                    <button class="btn">+</button>
+                    <button class="btn" onclick="storeData('1')">1</button>
+                    <button class="btn" onclick="storeData('2')">2</button>
+                    <button class="btn" onclick="storeData('3')">3</button>
+                    <button class="btn" onclick="storeData('+')">+</button>
                     <br><br>
-                    <button class="btn">0</button>
-                    <button class="btn">.</button>
-                    <button class="btn Equalbtn">=</button>
+                    <button class="btn" onclick="storeData('0')">0</button>
+                    <button class="btn" onclick="storeData('.')">.</button>
+                    <button class="btn Equalbtn" onclick="calData()">=</button>
                     <!-- <button class="btn">Watch</button> -->
                       
 
