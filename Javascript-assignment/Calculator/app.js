@@ -34,6 +34,12 @@ function clcData(){
 }
 
 
+ function delData(){
+var textInput = document.getElementById("txtInput")
+textInput.value = textInput.value.slice(0,textInput.value.length -1)
+}
+
+
 
 
 
