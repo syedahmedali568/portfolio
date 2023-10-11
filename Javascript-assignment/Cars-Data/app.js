@@ -1,4 +1,4 @@
-var carVariants = {
+var cars = {
     honda: {
         civic: {
             type: {
@@ -556,9 +556,9 @@ var carVariants = {
 // console.log(cars[user][model])
 
 
-for (var company in carVariants) {
-    for (var model in carVariants[company]) {
-        for (var variant in carVariants[company][model])
-            console.log(carVariants[company][model][variant])
+for (var company in cars) {
+    for (var model in cars[company]) {
+        for (var variant in cars[company][model])
+            console.log(cars[company][model][variant])
     }
 }
